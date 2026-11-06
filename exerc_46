@@ -1,0 +1,9 @@
+despesas = [45.0, 120.0, 35.5, 80.0]
+total = 0
+
+for despesa in despesas:
+    total = total + despesa 
+
+media = total / len(despesas)
+print("Total de despesas: R$", total)
+print("Média de despesas: R$", media)

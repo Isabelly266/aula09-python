@@ -1,0 +1,11 @@
+def calcular_total(despesas):
+   total = 0
+
+   for despesa in despesas:
+       total += despesa
+
+   return total
+
+despesas = [45.0, 120.0, 35.5, 80.0]
+resultado = calcular_total(despesas)
+print(f"Total de despesas: R$ {resultado}")
